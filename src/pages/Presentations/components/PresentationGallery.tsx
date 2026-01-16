@@ -26,7 +26,7 @@ const PresentationGallery = () => {
             >
               <img
                 src={item.thumbnail}
-                alt={item.title}
+                alt={`REACH Automotive Studio presentation thumbnail for ${item.title}`}
                 className="w-full h-auto rounded shadow"
               />
             </a>

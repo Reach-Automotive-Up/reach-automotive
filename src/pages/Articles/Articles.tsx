@@ -79,7 +79,7 @@ const Articles: React.FC = () => {
             >
               <img
                 src={item.thumbnail}
-                alt={item.title}
+                alt={`REACH Automotive Studio article thumbnail for ${item.title}`}
                 className="w-full h-auto rounded shadow"
               />
             </a>

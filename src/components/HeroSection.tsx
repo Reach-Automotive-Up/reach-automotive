@@ -3,6 +3,11 @@ import heroImage from "@/assets/heroimage.png";
 const HeroSection = () => {
   return (
     <section className="w-full bg-white">
+      {/* Hidden H1 for SEO – no UI change */}
+      <h1 className="sr-only">
+        REACH Automotive Studio – Automotive Design & Development Software
+      </h1>
+
       {/* Hero Wrapper */}
       <div
         className="
@@ -25,8 +30,6 @@ const HeroSection = () => {
             backgroundRepeat: "no-repeat",
             backgroundPosition: "center",
             backgroundSize: "contain",
-
-            /* ✅ THIS is the correct part */
             filter: "brightness(0.95) contrast(0.9)",
           }}
         />
@@ -36,5 +39,3 @@ const HeroSection = () => {
 };
 
 export default HeroSection;
-
-
