@@ -31,7 +31,7 @@ const Footer = () => {
               <span className="text-primary">REACH</span> Automotive Studio
             </Link>
             <p className="text-gray-300 max-w-md">
-              The REACH Automotive Studio
+              Best In Class Automotive Studio Software
             </p>
 
 
